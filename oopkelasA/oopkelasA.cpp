@@ -30,3 +30,13 @@ public:
 
 
 };
+
+void Matakuliah::inputMK() {
+	cout << "\nMasukkan Kode Mata Kuliah : ";
+	cin >> kode;
+	cout << "\nMasukkan Nama Mata Kuliah : ";
+	cin >> namamk;
+	cout << "\nMasukkan Sks Mata Kuliah : ";
+	cin >> sks;
+
+}
