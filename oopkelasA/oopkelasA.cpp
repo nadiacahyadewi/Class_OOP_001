@@ -49,7 +49,7 @@ void Matakuliah::TampilMK() {
 int main()
 {
 	Mahasiswa mhs;
-	Matakuliah mk;
+	Matakuliah mk; 
 
 	mhs.inputdata();
 	mhs.tampildata();
