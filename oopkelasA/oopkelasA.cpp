@@ -18,3 +18,10 @@ public :
 		cout << "\nNama : " << nama << endl;
 	}
 };
+
+class Matakuliah {
+private:
+	string kode;
+	string namamk;
+	int sks;
+};
