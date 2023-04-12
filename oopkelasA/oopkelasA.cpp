@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std; 
 
 class Mahasiswa {
 
@@ -12,9 +12,6 @@ public :
 		cin >> nim;
 		cout << "Masukkan Nama : ";
 		cin >> nama;
-	}
-	void tampilandata() {
-		cout << "\nNIM : " << nim << endl;
-		cout << "\nNama : " << nama << endl;
+	
 	}
 };
