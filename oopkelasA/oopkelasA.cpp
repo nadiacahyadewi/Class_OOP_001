@@ -51,7 +51,7 @@ int main()
 	Mahasiswa mhs;
 	Matakuliah mk; 
 
-	mhs.inputdata();
+	mhs.inputdata(); 
 	mhs.tampildata();
 
 	mk.inputMK();
