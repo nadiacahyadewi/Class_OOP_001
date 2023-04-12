@@ -13,7 +13,7 @@ public :
 		cout << "Masukkan Nama : ";
 		cin >> nama;
 	}
-	void tampilandata() {
+	void tampildata() {
 		cout << "\nNIM : " << nim << endl;
 		cout << "\nNama : " << nama << endl;
 	}
@@ -44,4 +44,16 @@ void Matakuliah::TampilMK() {
 	cout << "\nKode : " << kode << endl;
 	cout << "Nama Matakuliah : " << namamk << endl;
 	cout << "Jumlah SKS : " << endl;
+}
+
+int main()
+{
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+	mhs.inputdata();
+	mhs.tampildata();
+
+	mk.inputMK();
+	mk.TampilMK();
 }
